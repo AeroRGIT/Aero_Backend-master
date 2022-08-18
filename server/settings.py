@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-g)kjr8zy3j0m^l8b#gw-!g$ls^_*wm1=$%ebd*7tw3%at=ye-v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aero-server.herokuapp.com']
+ALLOWED_HOSTS = ['aerorgit-backend.herokuapp.com']
 
 
 # Application definition
@@ -141,5 +141,5 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CORS_ORIGIN_WHITELIST = (
-    'https://aerotest.netlify.app/',
+    'https://aerorgit.netlify.app/',
 )
