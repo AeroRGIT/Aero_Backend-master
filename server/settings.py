@@ -141,5 +141,5 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CORS_ORIGIN_WHITELIST = (
-    'https://aerorgit.netlify.app',
+    'https://aerorgit.co.in',
 )
